@@ -1,0 +1,62 @@
+.navbar, .textContainerDark{
+    background-color: #353a40;
+}
+.heroImg{
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.4)),
+    url(../assets/img/ba1.jpg);
+    background-position: bottom;
+}
+.textHeroContainer{
+    top: 40vh;
+}
+.btnOutGrey{
+    color: rgba(255, 255, 255, 0.637);
+    border-color: rgba(255, 255, 255, 0.637);
+}
+.navItems{
+    justify-content: flex-end;
+}
+
+.btnEnviar{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #96c93e;
+    color: white;
+    padding: 6px;
+}
+footer{
+    background-color: #1d4358;
+
+
+}
+footer ul{
+    height: 14vh;
+    display: flex;
+    justify-content: space-around;    
+    list-style: none;
+    align-items: center;
+}
+li{
+    
+    width: 100px;
+}
+.ciudad img{
+    max-height: 40vh;
+    object-fit: contain;
+
+}
+
+@media (max-width:700px){    
+    .textHeroContainer{
+        top: 25vh;
+        padding-right: 0!important;
+    }
+    .navbar-brand{
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+}
