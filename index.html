@@ -26,9 +26,9 @@
               <div class="collapse navbar-collapse me-5 pe-5 navItems" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
-                  <a class="nav-link" href="#">Los oradores</a>
-                  <a class="nav-link" href="#">El lugar y la fecha</a>
-                  <a class="nav-link" href="#">Conviertete en orador</a>
+                  <a class="nav-link" href="#oradores">Los oradores</a>
+                  <a class="nav-link" href="#ciudad">El lugar y la fecha</a>
+                  <a class="nav-link" href="#contacto">Conviertete en orador</a>
                   <a class="nav-link text-success" href="#">Comprar tickets</a>
                 </div>
               </div>
@@ -39,18 +39,19 @@
     <main>
 
         <div class="heroImg position-relative">
-            <div class="col-sm-10 col-md-8 position-absolute  end-0 p-5 text-light text-end me-5 textHeroContainer">
+            <div class="col-sm-10 col-md-8 col-lg-6 col-xl-4 position-absolute  end-0 p-5 text-light text-end me-5 textHeroContainer">
                 <h1>Conf Bs As</h1>
                 <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comundidad el conocimiento y
                   experiencia de los expertos que estan creando el futuro de Internet. Ven a conocer a miembros del evento, a
                   otros estudiates de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>                
-                <button type="button" class="btn btn-outline btnOutGrey p-2 me-3">Quiero ser orador</button>
+                
+                    <button type="button" class="btn btn-outline btnOutGrey p-2 me-3" href="#contacto"><a  href="#contacto">Quiero ser orador</a></button>
                 <button type="button" class="btn btn-success p-2">Comprar tickets</button>
               </div>
     
         </div>
         
-        <section class="oradores">
+        <section class="oradores" id="oradores">
             <span class="text-center">
                 <p class="fs-6 m-0">CONOCE A LOS</p>
                 <h2 class="fs-2">ORADORES</h2>
@@ -101,7 +102,7 @@
 
         </section>
 
-        <section class="container-fluid d-flex m-0 p-0 d-flex flex-wrap ciudad">
+        <section class="container-fluid d-flex m-0 p-0 d-flex flex-wrap ciudad" id="ciudad">
             <div class="col-sm-12 col-md-6">
                 <img src="./assets/img/honolulu.jpg" class="col-sm-12" alt="Steve jobs">
             </div>
@@ -120,7 +121,7 @@
             </div>
         </section>
 
-        <section  class="container col-sm-12 col-md-8">            
+        <section  class="container col-sm-12 col-md-8"  id="contacto">            
             <span class="text-center">
                 <p class="fs-6 m-0">CONOCE A LOS</p>
                 <h2 class="fs-2">ORADORES</h2>
@@ -157,7 +158,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-
-    <script src="./js/index.js"></script>
 </body>
 </html>

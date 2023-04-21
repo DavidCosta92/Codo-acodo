@@ -28,26 +28,32 @@
     color: white;
     padding: 6px;
 }
+
 footer{
     background-color: #1d4358;
-
-
 }
+
 footer ul{
     height: 14vh;
     display: flex;
-    justify-content: space-around;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;  
     list-style: none;
     align-items: center;
-}
-li{
     
+}
+li{    
     width: 100px;
 }
-.ciudad img{
-    max-height: 40vh;
-    object-fit: contain;
 
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 @media (max-width:700px){    
@@ -58,5 +64,11 @@ li{
     .navbar-brand{
         padding-left: 0 !important;
         margin-left: 0 !important;
+    }
+    .ciudad img{
+        max-height: 40vh;
+        max-height: 60vw;
+        object-fit: contain;
+    
     }
 }
