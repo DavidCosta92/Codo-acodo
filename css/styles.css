@@ -58,8 +58,78 @@ a:hover{
 .ciudad img{
     object-fit: cover;
     height: 100%;
-
 }
+
+.ticketsCardContainer{
+    margin: 20px auto;
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+.ticketsCardContainer .card{
+    border-radius: 0;
+    width: 32%;
+    text-align: center;
+    padding: 30px;
+    max-width: 430px;
+    min-width: 350px;
+}
+.ticketsCardContainer .card{
+}
+.estudiante{
+    border: 1px solid blue;
+}
+.trainee{
+    border: 1px solid darkblue;
+}
+.junior{
+    border: 1px solid orange;
+}
+.titulo{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.subtitulo{
+    font-size: 2rem;
+    
+}
+.porcentaje{
+    font-size: 2rem;  
+    font-weight: 700;
+}
+.aclaracion{
+    font-size: 1.3rem;    
+}
+
+.priceContainer{
+    width: 80%;
+    margin: auto;
+}
+.priceContainer p{ 
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.priceContainer p:first-child{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.priceContainer .subtitulo{
+    
+}
+.totalAPagar{
+    background-color: #cce5ff;
+}
+form .btn {
+    background-color: #97c93e;
+    color: white;
+    width: 100%;
+    border-radius: 1px solid #97c93e;
+}
+
 
 @media (max-width:700px){    
     .textHeroContainer{
